@@ -1,7 +1,6 @@
 {
     "name": "php-concept/extension-csrf",
     "description": "Concept CSRF extension — token manager and verification middleware",
-    "version": "1.0.0",
     "type": "library",
     "license": "MIT",
     "autoload": {
