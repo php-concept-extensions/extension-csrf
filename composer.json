@@ -1,6 +1,6 @@
 {
     "name": "php-concept/extension-csrf",
-    "description": "Concept CSRF extension \u2014 token manager and verification middleware",
+    "description": "Concept CSRF extension \u2014 token manager and VerifyCsrfTokenMiddleware (exception handling stays in the app)",
     "type": "library",
     "license": "MIT",
     "autoload": {
