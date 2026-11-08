@@ -26,8 +26,8 @@ final class HandleCsrfExceptionMiddleware implements MiddlewareInterface
             return $handler->handle($request);
         } catch (CsrfException $e) {
             if ($this->requestFormat->expectsJson($request)) {
-                return $this->responseFactory->jsonError(
-                    $e->getMessage(),
+                return $this->responseFactory->json(
+                    ['message' => $e->getMessage()],
                     HttpStatusCode::PAGE_EXPIRED,
                 );
             }

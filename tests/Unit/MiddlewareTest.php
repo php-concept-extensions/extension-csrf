@@ -104,8 +104,8 @@ final class HandleCsrfExceptionMiddlewareTest extends TestCase
     public function testReturnsJsonErrorForJsonRequests(): void
     {
         $responseFactory = $this->createMock(ResponseFactoryInterface::class);
-        $responseFactory->expects($this->once())->method('jsonError')->with(
-            $this->isType('string'),
+        $responseFactory->expects($this->once())->method('json')->with(
+            $this->callback(static fn(mixed $payload): bool => is_array($payload) && isset($payload['message']) && is_string($payload['message'])),
             HttpStatusCode::PAGE_EXPIRED,
         )->willReturn(new Response());
 
