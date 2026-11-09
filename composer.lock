@@ -551,16 +551,16 @@
         },
         {
             "name": "php-concept/extension-event",
-            "version": "v1.1.4",
+            "version": "v1.1.5",
             "source": {
                 "type": "git",
                 "url": "https://github.com/php-concept-extensions/extension-event.git",
-                "reference": "c15440104e07acc0982e32da503ee75f152bc008"
+                "reference": "a2cd8bf0b5d4c7b552e49649034c0d83381f9892"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/php-concept-extensions/extension-event/zipball/c15440104e07acc0982e32da503ee75f152bc008",
-                "reference": "c15440104e07acc0982e32da503ee75f152bc008",
+                "url": "https://api.github.com/repos/php-concept-extensions/extension-event/zipball/a2cd8bf0b5d4c7b552e49649034c0d83381f9892",
+                "reference": "a2cd8bf0b5d4c7b552e49649034c0d83381f9892",
                 "shasum": ""
             },
             "require": {
@@ -583,22 +583,22 @@
             "description": "Concept Event extension — League Event dispatcher wiring",
             "support": {
                 "issues": "https://github.com/php-concept-extensions/extension-event/issues",
-                "source": "https://github.com/php-concept-extensions/extension-event/tree/v1.1.4"
+                "source": "https://github.com/php-concept-extensions/extension-event/tree/v1.1.5"
             },
-            "time": "2026-11-06T10:28:46+00:00"
+            "time": "2026-11-06T10:54:47+00:00"
         },
         {
             "name": "php-concept/extension-http",
-            "version": "v1.1.4",
+            "version": "v1.1.5",
             "source": {
                 "type": "git",
                 "url": "https://github.com/php-concept-extensions/extension-http.git",
-                "reference": "10626d86bfe793726982d80555b9c738d7501743"
+                "reference": "da92b391750a5fed490bb49e66d72ca94d7ce0df"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/php-concept-extensions/extension-http/zipball/10626d86bfe793726982d80555b9c738d7501743",
-                "reference": "10626d86bfe793726982d80555b9c738d7501743",
+                "url": "https://api.github.com/repos/php-concept-extensions/extension-http/zipball/da92b391750a5fed490bb49e66d72ca94d7ce0df",
+                "reference": "da92b391750a5fed490bb49e66d72ca94d7ce0df",
                 "shasum": ""
             },
             "require": {
@@ -624,22 +624,22 @@
             "description": "Concept HTTP extension — responses, URLs, route introspection",
             "support": {
                 "issues": "https://github.com/php-concept-extensions/extension-http/issues",
-                "source": "https://github.com/php-concept-extensions/extension-http/tree/v1.1.4"
+                "source": "https://github.com/php-concept-extensions/extension-http/tree/v1.1.5"
             },
-            "time": "2026-11-06T10:28:46+00:00"
+            "time": "2026-11-06T10:54:47+00:00"
         },
         {
             "name": "php-concept/extension-session-symfony",
-            "version": "v1.1.4",
+            "version": "v1.1.5",
             "source": {
                 "type": "git",
                 "url": "https://github.com/php-concept-extensions/extension-session-symfony.git",
-                "reference": "2054f3584e6b18ceb0777d162eb28ea79b285e03"
+                "reference": "0bb85bc920556648c168dc8f42f8d1cdb902df4b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/php-concept-extensions/extension-session-symfony/zipball/2054f3584e6b18ceb0777d162eb28ea79b285e03",
-                "reference": "2054f3584e6b18ceb0777d162eb28ea79b285e03",
+                "url": "https://api.github.com/repos/php-concept-extensions/extension-session-symfony/zipball/0bb85bc920556648c168dc8f42f8d1cdb902df4b",
+                "reference": "0bb85bc920556648c168dc8f42f8d1cdb902df4b",
                 "shasum": ""
             },
             "require": {
@@ -663,13 +663,13 @@
             "description": "Concept Session extension — session and flash bag",
             "support": {
                 "issues": "https://github.com/php-concept-extensions/extension-session-symfony/issues",
-                "source": "https://github.com/php-concept-extensions/extension-session-symfony/tree/v1.1.4"
+                "source": "https://github.com/php-concept-extensions/extension-session-symfony/tree/v1.1.5"
             },
-            "time": "2026-11-06T10:28:46+00:00"
+            "time": "2026-11-06T10:54:47+00:00"
         },
         {
             "name": "php-concept/extension-support",
-            "version": "v1.1.4",
+            "version": "v1.1.5",
             "source": {
                 "type": "git",
                 "url": "https://github.com/php-concept-extensions/extension-support.git",
@@ -697,7 +697,7 @@
             "description": "Concept Extension Support — dependency-free runtime contract and factory helpers",
             "support": {
                 "issues": "https://github.com/php-concept-extensions/extension-support/issues",
-                "source": "https://github.com/php-concept-extensions/extension-support/tree/v1.1.4"
+                "source": "https://github.com/php-concept-extensions/extension-support/tree/v1.1.5"
             },
             "time": "2026-11-06T10:28:46+00:00"
         },
